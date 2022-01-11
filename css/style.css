@@ -1,33 +1,43 @@
 /* GLOBAL */
+
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 10px;
 }
 
 html {
-  height: 100%;
+    height: 100%;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  margin: 0;
-  padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 2.8rem;
+    font-size: 1.8rem;
 }
+
 
 /* CONTAINER */
+
 .container {
-  max-width: 1260px;
-  width: 100%;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-left: auto;
-  margin-right: auto;
+    max-width: 154rem;
+    width: 100%;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+
 /* MAIN CONTENT */
+
 .main-content {
-  flex-grow: 1;
+    flex-grow: 1;
 }
