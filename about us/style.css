@@ -1,0 +1,120 @@
+.commitment {
+    margin: 2rem;
+    position: relative;
+}
+
+.commits {
+    background-color: #F5F5ED;
+    display: flex;
+    align-items: center;
+    padding: 16rem 6rem 21rem 16.5rem;
+}
+
+.left-top {
+    top: 2rem;
+}
+
+.commit-texts {
+    margin-left: 18.5rem;
+}
+
+.commit-title {
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 5.6rem;
+}
+
+.commit-des {
+    color: #333;
+    font-size: 18px;
+    line-height: 3rem;
+}
+
+.quality {
+    margin: 2rem;
+    margin-top: 16rem;
+    background-color: #C4935F;
+    padding-bottom: 9rem;
+}
+
+.qualities {
+    display: flex;
+    align-items: center;
+}
+
+.quality img {
+    margin-top: -8rem;
+    margin-left: 3.8rem;
+}
+
+.qualty-texts {
+    margin-left: 9.3rem;
+    width: 63.9rem;
+}
+
+.quality-title {
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 59px;
+    color: #fff;
+}
+
+.quality-des {
+    color: #fff;
+    margin-top: 2.4rem;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.headquarters {
+    padding: 5rem 3rem 10rem 3rem;
+    background-color: #096651;
+}
+
+.head-title {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 59px;
+    text-align: center;
+}
+
+.countries {
+    display: flex;
+    align-items: center;
+}
+
+.countries-item {
+    width: 43.3rem;
+    height: 39.6rem;
+    background-color: #fff;
+    margin-left: 2rem;
+    list-style-type: none;
+}
+
+.countries-item img {
+    text-align: right;
+    padding-top: 4.5rem;
+    padding-left: 20rem;
+}
+
+.countries-item:first-child {
+    margin-left: 0;
+}
+
+.proces-title {
+    padding-left: 4rem;
+    font-size: 40px;
+    color: #333;
+    font-weight: 500;
+    line-height: 47px;
+    margin: 0;
+    margin-top: -50px;
+}
+
+.proces-des {
+    padding-left: 4rem;
+    font-size: 18px;
+    color: #333;
+    line-height: 28px;
+}
